@@ -259,7 +259,6 @@ Generate a payload and obfuscate it (i.e. XOR, caesar shift etc).
 I.e.:
 
 ```
-┌──(darren㉿kali)-[~/kali-shared/PEN-300]
 └─$ python rk-encode-payload.py --payload payloads/payload.ps1 --transforms="caesar=5,xor=foo"
 [+] Read payload from file: payloads/payload.ps1
 [-]   Payload:
@@ -425,7 +424,6 @@ Generate a payload and obfuscate it (i.e. XOR, caesar shift etc).
 I.e.:
 
 ```
-┌──(darren㉿kali)-[~/kali-shared/PEN-300]
 └─$ python rk-encode-payload.py --payload payloads/payload.ps1 --transforms="caesar=5,xor=foo"
 [+] Read payload from file: payloads/payload.ps1
 [-]   Payload:
